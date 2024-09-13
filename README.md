@@ -2,18 +2,15 @@
 
 _PDS 2024 - Group 8 project_
 
+[Presentation](doc/group8.pdf)
+
 ## Usage
 
 Currently the application runs on Windows only (because of Echo and Tray), but the code is not too dependent on winapi
-and it souldnt be hard to port it to other OS.
+and it souldn't be hard to port it to other OS.
 \
 \
-It assumes that only one monitor is connected, as you would use the application in case the main screen is broken. If
-other monitors are available you can still use the pc, otherwise there is a more severe failure going on an the
-application is not designed for that occasion.
-\
-\
-The chosen mouse trigger is a path around the border of the screen: top left 🠒 bottom left 🠒 bottom right 🠒 top right.
+The chosen mouse trigger is a path around the border of the primary display: top left 🠒 bottom left 🠒 bottom right 🠒 top right.
 \
 To complete the path the mouse must never be further than 1/6 of the screen width from the borders of the screen,
 otherwise the path must start over.
