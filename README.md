@@ -1,6 +1,6 @@
 # Blackout
 
-_PDS 2024 - Group 8 project_
+_PoliTo - System & Devices Programming 2024 - Final Project (Group 8)_ 
 
 [Presentation](doc/group8.pdf)
 
